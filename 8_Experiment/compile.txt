@@ -1,0 +1,4 @@
+bison -d expr.y
+lex expr.l
+gcc lex.yy.c expr.tab.c -o expr
+expr.exe

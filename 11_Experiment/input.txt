@@ -1,0 +1,10 @@
+IMPLEMENT CODE OPTIMIZATION TECHNIQUES LIKE DEAD CODE AND 
+COMMON EXPRESSION ELIMINATION
+
+t1 = a + b
+t2 = a + b
+t3 = c + d
+t4 = t1 + t3
+t5 = t2 + t3
+x = t4
+done

@@ -1,0 +1,6 @@
+a = b + c * d
+x = (a + b) * (c - d)
+if a > b
+    x = y + z
+GENERATE THREE ADDRESS CODES FOR A GIVEN EXPRESSION 
+(ARITHMETIC EXPRESSION, FLOW OF CONTROL) 

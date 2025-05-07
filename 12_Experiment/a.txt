@@ -1,0 +1,26 @@
+ IMPLEMENT CODE OPTIMIZATION TECHNIQUES  
+COPY PROPAGATION 
+ 
+AIM: 
+The aim is to implement code optimization techniques like Dead Code Elimination (DCE) and 
+Common Subexpression Elimination (CSE) to improve the efficiency and performance of a 
+program. These techniques are applied to intermediate code (e.g., Three-Address Code or 
+TAC) during the compilation process. 
+ALGORITHM: 
+ The desired header files are declared. 
+ The two file pointers are initialized one for reading the C program from the file and one 
+for writing the converted program with constant folding 
+ The file is read and checked if there are any digits or operands present. 
+ If there is, then the evaluations are to be computed in switch case and stored. 
+ Copy the stored data to another file. 
+ Print the copied data file.
+
+t1 = a
+t2 = b
+t3 = t1
+t4 = t2
+t5 = t3 + t4
+t6 = t3 + t4
+x = t5
+done
+

@@ -1,0 +1,4 @@
+bison -d varname.y
+flex varname.l
+gcc varname.tab.c lex.yy.c -o varcheck
+varcheck.exe
